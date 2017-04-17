@@ -1,0 +1,124 @@
+@media only screen and (max-width: 980px) {
+    #headerContainer {
+		width: 80%;
+	}
+
+	#container {
+		width: 80%;
+	}
+
+	section {
+		width: 50%;
+	}
+
+	.standInLeft {
+		float: none;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	.standInRight {
+		float: none;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+    	padding-bottom: 100px;
+    }
+
+
+    #headerContainer {
+		width: 80%;
+	}
+
+	#container {
+		width: 80%;
+	}
+
+	section {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+
+	aside {
+		float: left;
+		width: 100%;
+		text-align: left;
+		margin-top: 20px;
+	}
+
+	.standInLeft {
+		float: left;
+		position: relative;
+	}
+
+	.standInRight {
+		float:right;
+		position: relative;
+	}
+}
+
+@media only screen and (max-width: 640px) {
+	body {
+		padding-bottom: 0px;
+	}
+
+    #headerContainer {
+		width: 90%;
+	}
+
+	#nameBlock{
+		width: 100%;
+		padding-right: 0px;
+		padding-left: 0px;
+		text-align: center;
+	}
+
+	#linkBlock{
+		width:100%;
+		position: static;
+		padding-top: 15px;
+		height: 35px;
+	}
+
+	#container {
+		width: 90%;
+	}
+
+	section {
+		width: 100%;
+		margin-bottom: 20px;
+		padding: 0;
+	}
+
+	section h1{
+		padding-top:10px;
+		padding-left:10px;
+	}
+
+	aside {
+		float: left;
+		width: 100%;
+		text-align: left;
+		margin-top: 20px;
+		padding: 0;
+	}
+
+	.standInLeft {
+		float: none;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	.standInRight {
+		float: none;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	footer {
+		position: static;
+	}
+}

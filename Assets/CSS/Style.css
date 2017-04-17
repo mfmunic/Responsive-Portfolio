@@ -73,57 +73,66 @@ body {
 	margin-right: auto;
 	margin-left: auto;
 	margin-top: 40px;
+	position: relative;
 }
 
 hr {
 	border-color: #dddddd;
 	margin-left: auto;
 	margin-right: auto;
+	width: 90%;
 }
 
 section {
-	width: 610px;
+	width: 630px;
 	float: left;
 	background-color: #ffffff;
 	border: 2px solid #dddddd;
-	padding: 20px;
+	padding: 0;
 	margin-bottom: 100px;
+}
+
+section h1{
+	margin-top: 20px;
+	margin-left: 20px;
 }
 
 article p {
 	color: #777777;
 	font-family: arial;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 section img {
 	float:left;
-	margin: 10px 10px 0px 0px;
+	margin: 10px 10px 0px 20px;
 
 }
 
 section h1 {
 	color: #4aaaa5;
 	font-family: georgia;
-	margin-top: 0px;
+	margin-top: 20px;
 }
 
 aside {
 	float: right;
-	width: 230px;
+	width: 250px;
 	text-align: center;
 	color: #4aaaa5;
 	font-family: georgia;
 	background-color: #ffffff;
 	border: 2px solid #dddddd;
-	padding: 20px;
+	padding: 0px;
 }
 
 aside h2 {
-	margin-top: 0px;
+	margin: 20px;
 }
 
 aside ul {
 	list-style-type: none;
-	padding: 0;
+	padding: 20px;
 }
 
 aside ul li {
